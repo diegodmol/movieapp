@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="cinema_black">#0B0B0F</color>
+    <color name="cinema_gold">#D4AF37</color>
+    <string name="app_name">CineApp</string>
+    <style name="Theme.MovieApp" parent="android:Theme.Material.NoActionBar">
+        <item name="android:statusBarColor">@color/cinema_black</item>
+        <item name="android:windowBackground">@color/cinema_black</item>
+    </style>
+    <style name="Theme.MovieApp.SplashScreen" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/cinema_black</item>
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+        <item name="postSplashScreenTheme">@style/Theme.MovieApp</item>
+    </style>
+</resources>

@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.MovieApp" parent="android:Theme.Material.NoActionBar">
+        <item name="android:statusBarColor">@color/cinema_black</item>
+        <item name="android:windowBackground">@color/cinema_black</item>
+    </style>
+
+    <style name="Theme.MovieApp.SplashScreen" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/cinema_black</item>
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+        <item name="postSplashScreenTheme">@style/Theme.MovieApp</item>
+    </style>
+
+</resources>
